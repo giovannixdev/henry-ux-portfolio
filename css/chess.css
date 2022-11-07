@@ -320,3 +320,17 @@
     row-gap: 1.6rem;
   }
 }
+
+.construction {
+  width: 2000px;
+  height: 40px;
+  background-color: #D50000;
+  color: white;
+  text-align: center;
+  line-height: 35px;
+}
+
+.flex-const {
+  display: flex;
+  align-items: center;
+}

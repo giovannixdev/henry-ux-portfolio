@@ -8,14 +8,13 @@
 }
 
 .wdd {
-  width: 110%;
+  width: 93%;
 }
 
 .flex-discovery {
   display: flex;
-  /* flex-direction: column; */
   align-content: center;
-  /* gap: 1.6rem; */
+  gap: 1.6rem;
 }
 
 .image-1-icon {
@@ -257,6 +256,8 @@ iframe {
   position: relative;
 }
 
+
+
 /* NOTE: set content to url won't allow image resizing */
 /* .img-container::before {
     content: url(../src//images/beep-images/retrospective/ellipse-1.png);
@@ -281,26 +282,26 @@ iframe {
   content: '';
   /* display: inline-block; */
   position: absolute;
-  background: url(../src//images/beep-images/retrospective/ellipse-1.png);
+  background: url(../src//images/beep-images/retrospective/ellipse-3.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 30%;
   height: 30%;
-  top: -6%;
-  left: -2.5%;
+  bottom: -6%;
+  left: -6%;
   z-index: -1;
 }
 
 .img-container::after {
   content: '';
   position: absolute;
-  background: url(../src//images/beep-images/retrospective/ellipse-2.png);
+  background: url(../src//images/beep-images/retrospective/ellipse-4.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 30%;
   height: 30%;
-  bottom: -6%;
-  right: -14%;
+  top: 18%;
+  right: -16%;
 }
 
 .banner-details {
@@ -471,9 +472,11 @@ iframe {
   width: 375px;
   height: 172px;
   object-fit: cover;
-  /* background-size: cover; */
 }
 
+.container-flex {
+  display: flex;
+}
 .image-2-icon {
   width: 378px;
 }
@@ -745,7 +748,7 @@ iframe {
 }
 
 .pl {
-  padding-left: 10rem;
+  padding-left: 15rem;
 }
 
 .construction {
@@ -762,3 +765,5 @@ iframe {
   display: flex;
   align-items: center;
 }
+
+

@@ -1,10 +1,6 @@
 .p-discovery {
   line-height: 135%;
-  opacity: 0.87;
-}
-
-.wd {
-  width: 135%;
+  /* opacity: 0.87; */
 }
 
 .wdd {
@@ -15,6 +11,14 @@
   display: flex;
   align-content: center;
   gap: 1.6rem;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+/* 
+style="display: flex; flex-wrap: wrap; justify-content: center;" */
+
+.discover_bg {
+  background-color: #F7F7F8;
 }
 
 .image-1-icon {
@@ -32,8 +36,12 @@ img {
 
 .heading-tertiary {
   font-size: 3.6rem;
-  margin: 1.6rem 0;
+  margin-bottom: 1.6rem;
   /* line-height: 42.2px; */
+}
+
+.mt24 {
+  margin-top: 2.4rem;
 }
 
 .problem-details {
@@ -70,13 +78,18 @@ img {
   list-style: none;
 }
 
-.fa-circle-check {
+/* .fa-circle-check {
   color: #0f0d69;
   margin-right: 1.8rem;
-}
+} */
 
 .image-joanna {
   margin-bottom: -2.4rem;
+}
+
+.image-8 {
+  width: 760px;
+  height: 317px;
 }
 
 .fa-exclamation-circle {
@@ -317,6 +330,10 @@ iframe {
 /* BELOW 1200px (Landscape Tablets) */
 /**************************/
 @media (max-width: 75em) {
+  .flex-discovery {
+    flex-wrap: wrap;
+  }
+
   .banner {
     display: grid;
     grid-template-columns: 1fr;
@@ -400,6 +417,7 @@ iframe {
 /* BELOW 704px (Smaller tablets) */
 /**************************/
 @media (max-width: 44em) {
+
   .grid--3-cols {
     grid-template-columns: 1fr;
     row-gap: 2rem;
@@ -592,6 +610,11 @@ iframe {
   color: white;
 }
 
+.white-o {
+  color: white;
+  opacity: 0.87;
+}
+
 .red {
   color: #FD1B1B;
   font-size: 36px;
@@ -622,7 +645,7 @@ iframe {
 }
 
 .homepage-grid-view-1 {
-  width: 770px;
+  width: 735px;
   height: 550px;
   /* object-fit: cover; */
 }
@@ -666,13 +689,20 @@ iframe {
 
 .ht {
   margin: 0 24rem;
-  margin-top: 1.6rem;
+  /* margin-top: 1.6rem; */
   margin-bottom: 1.6rem;
 }
 
-.heading-secondary {
-    font-size: 4.8rem;
-    margin-bottom: 2.4rem;
+.heading-secondary-16 {
+  font-size: 4.8rem;
+  font-weight: 300;
+  line-height: 5.7rem;
+}
+
+.flex-column16 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
 }
 
 .hs {
@@ -713,38 +743,38 @@ iframe {
 }
 
 .figmaexport1 {
-  width: 887px;
-  height: 630px;
+  width: 88.7rem;
+  /* height: 63.0rem; */
 }
 
 .figmaexport2 {
-  width: 887px;
-  height: 887px;
+  width: 88.7rem;
+  /* height: 88.7rem; */
 }
 
 .figmaexport3 {
-  width: 887px;
-  height: 630px;
+  width: 88.7rem;
+  /* height: 63.0rem; */
 }
 
 .light-mobile-1 {
-  width: 433px;
-  height: 926px;
+  width: 43.3rem;
+  /* height: 92.6rem; */
 }
 
 .leaving-a-comment-78 {
-  width: 433px;
-  height: 308px;
+  width: 43.3rem;
+  /* height: 30.8rem; */
 }
 
 .leaving-a-comment-81 {
-  width: 433px;
-  height: 308px;
+  width: 43.3rem;
+  /* height: 30.8rem; */
 }
 
 .setting-page-1 {
-  width: 433px;
-  height: 432.02px;
+  width: 43.3rem;
+  /* height: 43.2rem; */
 }
 
 .pl {
@@ -764,6 +794,12 @@ iframe {
 .flex-const {
   display: flex;
   align-items: center;
+}
+
+.level-1-img {
+  /* width: 547px; */
+  height: 388px;
+  /* object-fit: cover; */
 }
 
 

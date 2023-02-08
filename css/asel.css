@@ -187,9 +187,11 @@ small {
 /* USER FLOW */
 .grid-user-flow {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 2rem;
-  row-gap: 2.4rem;
+  grid-template-columns: 1fr 0.50fr;
+  width: 1350px;
+  column-gap: 20px;
+  /* row-gap: 24px; */
+  margin: 0 auto;
 }
 
 .section-user-flow {
@@ -356,6 +358,13 @@ iframe {
   .main-nav-list {
     /* padding: 0 4.8rem; */
   }
+
+  .grid-user-flow {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    width: 70em;
+    margin: 0 auto;
+  }
 }
 
 /**************************/
@@ -411,13 +420,24 @@ iframe {
     width: 70%;
     margin: 0 auto;
   }
+
+  .grid-user-flow {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 55em;
+    margin: 0 auto;
+  }
+  .grid-user-flow div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /**************************/
 /* BELOW 704px (Smaller tablets) */
 /**************************/
 @media (max-width: 44em) {
-
   .grid--3-cols {
     grid-template-columns: 1fr;
     row-gap: 2rem;
@@ -426,6 +446,13 @@ iframe {
   .grid--2-cols {
     grid-template-columns: 1fr;
     row-gap: 2rem;
+  }
+
+  .grid-user-flow {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 40em;
+    margin: 0 auto;
   }
 }
 
@@ -460,7 +487,8 @@ iframe {
   .grid-user-flow {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
+    width: 34em
+    /* gap: 1rem; */
   }
 
   .logo-container {
@@ -703,6 +731,7 @@ iframe {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+  flex-wrap: nowrap;
 }
 
 .hs {
@@ -737,44 +766,50 @@ iframe {
 }
 
 .signed-in-home-page-feedback-1 {
-  width: 774px;
   height: 550px;
   object-fit: cover;
 }
 
 .figmaexport1 {
-  width: 88.7rem;
-  /* height: 63.0rem; */
+  max-width: 887px;
+  height: 630px;
+  margin-bottom: 24px;
 }
 
 .figmaexport2 {
-  width: 88.7rem;
-  /* height: 88.7rem; */
+  max-width: 887px;
+  height: 887px;
+  margin-bottom: 24px;
 }
 
 .figmaexport3 {
-  width: 88.7rem;
-  /* height: 63.0rem; */
+  max-width: 887px;
+  height: 630px;
+  margin-bottom: 24px;
 }
 
 .light-mobile-1 {
-  width: 43.3rem;
-  /* height: 92.6rem; */
+  max-width: 43.3rem;
+  height: 92.6rem;
+  margin-bottom: 24px;
 }
 
 .leaving-a-comment-78 {
-  width: 43.3rem;
-  /* height: 30.8rem; */
+  max-width: 43.3rem;
+  height: 30.8rem;
+  margin-bottom: 24px;
 }
 
 .leaving-a-comment-81 {
-  width: 43.3rem;
-  /* height: 30.8rem; */
+  max-width: 43.3rem;
+  height: 30.8rem;
+  margin-bottom: 24px;
 }
 
 .setting-page-1 {
-  width: 43.3rem;
-  /* height: 43.2rem; */
+  max-width: 43.3rem;
+  height: 43.2rem;
+  margin-bottom: 24px;
 }
 
 .pl {
